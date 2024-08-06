@@ -1,0 +1,42 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    font-family: 'Poppins';
+    background-color: #2C5F2D;
+    height: 100%;
+}
+
+h1{
+    font-size: 150px;
+}
+
+h3{
+    font-size: 100px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color:#97BC62;
+    height: 550px;
+    width: 1000px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.icon{
+    display: inline;
+    height: 100px;
+    width: 100px;
+    margin-right: 30px;
+    margin-left: 30px;
+}
